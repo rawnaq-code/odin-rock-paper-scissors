@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #22223b;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.play {
+    background-color: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.play h4 {
+    color: #666681;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.user,
+.compt {
+    display: inline-block;
+    background-color: #f0f2ff;
+    padding: 15px 25px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.human-score,
+.compt-score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #465fb4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.choices button {
+    flex: 1;
+}
+
+button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+.results {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.round-result {
+    margin-bottom: 12px;
+}
+
+.game-result {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.results button {
+    margin-top: 10px;
+}
